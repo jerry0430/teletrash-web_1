@@ -1,1 +1,1 @@
-teletrash-web_1
+teletrash-web

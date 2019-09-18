@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>teletrash web</title>
+    <script src='../node_modules/jquery/dist/jquery.min.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style/reset.css">
+    <link rel="stylesheet" type="text/css" href="./style/menu.css">
+    <link rel="stylesheet" type="text/css" href="./style/pop-up.css">
+    <link rel="stylesheet" type="text/css" href="./style/area.css">
+  </head>
+  <body>
+    <div id="menu"></div>
+    <div class="main">
+      <div class="submenu">
+        <h2 class="submenu__title">區域列表</h2>
+        <div class="submenu__search">
+          <i class="submenu__search__icon material-icons">search</i>
+          <input class="submenu__search__input" type="text" placeholder="搜尋名字">
+        </div>
+        <div class="submenu__content">
+          <div class="submenu__content__item active">
+            <div class="item__content">
+              <h3 class="item__content__area">海安路</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">五定里</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">海安夜市</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">仁德里</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">人壽里</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">小東路</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          <div class="submenu__content__item">
+            <div class="item__content">
+              <h3 class="item__content__area">仁和里</h3>
+              <p class="item__content__name">王小華 李曉明</p>
+            </div>
+            <i class="material-icons">more_vert</i>
+          </div>
+          
+        </div>
+      </div>
+      <div class="main__content">
+        <div class="main__title">
+          <h1 class="main__area">海安路</h1>
+          <p class="main__name">王小華  李小明</p>
+        </div>
+        <div class="main__average">
+          <div class="average">
+            <p class="average__title">垃圾桶</p>
+            <p class="average__number">28<span>個</span></span></p>
+          </div>
+          <div class="average__line"></div>
+          <div class="average">
+            <p class="average__title">平均垃圾量/日</p>
+            <p class="average__number">68<span>L</span></span></p>
+          </div>
+          <div class="average__line"></div>
+          <div class="average">
+            <p class="average__title">廢棄物</p>
+            <p class="average__number">32<span>L</span></span></p>
+          </div>
+          <div class="average__line"></div>
+          <div class="average">
+            <p class="average__title">回收物</p>
+            <p class="average__number">36<span>L</span></span></p>
+          </div>
+        </div>
+        <div class="main__rank">
+          <div class="main__rank__left">
+            <h2 class="main__rank__title">回收正確率</h2>
+            <div class="main__rank__image">
+              <img src="./assets/area-image-2.png">
+            </div>
+          </div>
+          <div class="main__rank__right">
+            <h2 class="main__rank__title">區域排名</h2>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.012</p>
+                <p class="rank__persent">20%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.013</p>
+                <p class="rank__persent">23%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.014</p>
+                <p class="rank__persent">34%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.015</p>
+                <p class="rank__persent">48%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.016</p>
+                <p class="rank__persent">59%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.017</p>
+                <p class="rank__persent">68%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.018</p>
+                <p class="rank__persent">73%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.018</p>
+                <p class="rank__persent">77%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="rank">
+              <div class="rank__text">
+                <p class="rank__title">no.020</p>
+                <p class="rank__persent">82%</p>
+              </div>
+              <div class="rank__wrap">
+                <div class="rank__wrap__color"></div>
+              </div>
+              <i class="rank__arrow material-icons">arrow_forward_ios</i>
+            </div>
+          </div>
+        </div>
+        <div class="main__detail">
+          <div class="main__detail__header">
+            <p class="main__detail__header__text">區域內垃圾桶</p>
+            <button class="main__detail__header__button">
+              <i class="button-icon material-icons">edit</i>
+              編輯
+            </button>
+          </div>
+          <div class="main__detail__content">
+            <div class="detail__title__wrap">
+              <p class="title">垃圾桶</p>
+              <p class="title">垃圾量</p>
+              <p class="title">廢棄物</p>
+              <p class="title">回收物</p>
+            </div>
+            <div class="total__wrap">
+              <p class="total">
+                <span id="total-text">總計</span>23<span>個</span>
+              </p>
+              <p class="total">53<span>L</span></p>
+              <p class="total">30<span>L</span></p>
+              <p class="total">23<span>L</span></p>
+            </div>
+            <div class="detail__item">
+              <div class="detail__item__no">
+                <p class="no">no.012</p>
+              </div>
+              <p class="detail__item__text">60L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__place">區域名稱</p>
+              <button onclick="clickLocation(this)" class="detail__item__location material-icons">room</button>
+              <i onclick="clickItem()" class="detail__item__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="detail__item">
+              <div class="detail__item__no">
+                <p class="no no-yellow">no.013</p>
+              </div>
+              <p class="detail__item__text">60L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__place">區域名稱</p>
+              <button onclick="clickLocation(this)" class="detail__item__location material-icons">room</button>
+              <i onclick="clickItem()" class="detail__item__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="detail__item">
+              <div class="detail__item__no">
+                <p class="no">no.0014</p>
+              </div>
+              <p class="detail__item__text">60L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__place">區域名稱</p>
+              <button onclick="clickLocation(this)" class="detail__item__location material-icons">room</button>
+              <i onclick="clickItem()" class="detail__item__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="detail__item">
+              <div class="detail__item__no">
+                <p class="no no-yellow">no.0015</p>
+              </div>
+              <p class="detail__item__text">60L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__place">區域名稱</p>
+              <button onclick="clickLocation(this)" class="detail__item__location material-icons">room</button>
+              <i onclick="clickItem()" class="detail__item__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div class="detail__item">
+              <div class="detail__item__no">
+                <p class="no">no.0016</p>
+              </div>
+              <p class="detail__item__text">60L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__text">30L</p>
+              <p class="detail__item__place">區域名稱</p>
+              <button onclick="clickLocation(this)" class="detail__item__location material-icons">room</button>
+              <i onclick="clickItem()" class="detail__item__arrow material-icons">arrow_forward_ios</i>
+            </div>
+            <div id="pop-up" class="popup">
+              <div class="arrow-int"></div>
+              <div class="arrow-out"></div>
+              <div class="popup-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4944.707877303902!2d120.22244528650444!3d22.95915341148483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e743e9fc588ed%3A0x2f4aebe7c86b517f!2zNzE35Y-w5Y2X5biC5LuB5b635Y2A5LuB5ZKM6YeM!5e0!3m2!1szh-TW!2stw!4v1567429832043!5m2!1szh-TW!2stw" width="100%" height="138" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+              <p class="popup-text">717台南市仁德區仁和里</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="cover-popup">
+      <div onclick="closePopup()" class="mask"></div>
+      <div class="top">
+        <div class="top__header">
+          <p class="header__no">no.000</p>
+          <p class="header__text">負責人<span>王小明</span></span></p>
+          <p class="header__text">區域<span>海安路</span></p>
+          <button class="header__loaction material-icons">room</button>
+          <button class="header__button">
+            <i class="button-icon material-icons">edit</i>
+            編輯
+          </button>
+        </div>
+        <div class="top__total">
+          <div class="top__total__block">
+            <p class="block__title">目前垃圾量</p>
+            <p class="block__content"><span>60</span>L</p>
+          </div>
+          <div class="top__total__block">
+            <p class="block__title yellow-icon">廢棄物</p>
+            <p class="block__content"><span>30</span>L</p>
+          </div>
+          <div class="top__total__block">
+            <p class="block__title blue-icon">回收物</p>
+            <p class="block__content"><span>30</span>L</p>
+          </div>
+        </div>
+        <div class="top__middle">
+          <div class="top__middle__block">
+            <div class="title__wrap">
+              <h2 class="title">回收正確率</h2>
+              <input id="correct-reduce" class="date-input" type="date">
+            </div>
+            <div class="image__wrap">
+              <img src="./assets/popup-image-1.png">
+            </div>
+          </div>
+          <div class="top__middle__block">
+            <div class="title__wrap">
+              <h2 class="title">使用頻率</h2>
+              <input id="use-frequency" class="date-input" type="date">
+            </div>
+            <div class="image__wrap">
+              <img src="./assets/popup-image-1.png">
+            </div>
+          </div>
+        </div>
+        <div class="top__bottom">
+          <div class="title__wrap">
+            <h2 class="title">垃圾量</h2>
+            <input id="trash-value" class="date-input" type="date">
+          </div>
+          <div class="image__wrap">
+            <img src="./assets/popup-image-2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cover-popup">
+      <div onclick="closePopup()" class="mask"></div>
+      <div class="top">
+        <div class="top__header">
+          <p class="header__no">no.000</p>
+          <p class="header__text">負責人<span>王小明</span></span></p>
+          <p class="header__text">區域<span>海安路</span></p>
+          <button class="header__loaction material-icons">room</button>
+          <button class="header__button">
+            <i class="button-icon material-icons">edit</i>
+            編輯
+          </button>
+        </div>
+        <div class="top__total">
+          <div class="top__total__block">
+            <p class="block__title">目前垃圾量</p>
+            <p class="block__content"><span>60</span>L</p>
+          </div>
+          <div class="top__total__block">
+            <p class="block__title yellow-icon">廢棄物</p>
+            <p class="block__content"><span>30</span>L</p>
+          </div>
+          <div class="top__total__block">
+            <p class="block__title blue-icon">回收物</p>
+            <p class="block__content"><span>30</span>L</p>
+          </div>
+        </div>
+        <div class="top__middle">
+          <div class="top__middle__block">
+            <div class="title__wrap">
+              <h2 class="title">回收正確率</h2>
+              <input id="correct-reduce" class="date-input" type="date">
+            </div>
+            <div class="image__wrap">
+              <img src="./assets/popup-image-1.png">
+            </div>
+          </div>
+          <div class="top__middle__block">
+            <div class="title__wrap">
+              <h2 class="title">使用頻率</h2>
+              <input id="use-frequency" class="date-input" type="date">
+            </div>
+            <div class="image__wrap">
+              <img src="./assets/popup-image-1.png">
+            </div>
+          </div>
+        </div>
+        <div class="top__bottom">
+          <div class="title__wrap">
+            <h2 class="title">垃圾量</h2>
+            <input id="trash-value" class="date-input" type="date">
+          </div>
+          <div class="image__wrap">
+            <img src="./assets/popup-image-2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src='./scripts/menu.js'></script>
+<script src='./scripts/area.js'></script>
+<script src='./scripts/pop-up.js'></script>
